@@ -153,7 +153,8 @@
    flex-direction: column;
    align-items: center;
    @include for-large-up {
-      
+      display: flex;
+      flex-direction: row;
      }
    &__image {
       width: 60px;
@@ -165,12 +166,21 @@
       line-height: 25px;
       text-align: center;
       margin-top: 20px;
+      @include for-large-up {
+         margin-top: 0;
+         text-align: left;
+         margin-left: 15px;
+        }
    }
    &__description {
       font-size: 18px;
       line-height: 25px;
       text-align: center;
       color: $text-color-light-grey;
+      @include for-large-up {
+         text-align: left;
+         margin-left: 15px;
+        }
    }
 }
 
