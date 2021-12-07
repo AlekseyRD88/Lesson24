@@ -819,6 +819,7 @@
 @media screen and (min-width: 1400px) {
   .user-card {
     max-width: 262px;
+    max-height: 300px;
   }
 }
 .user-card:hover {
@@ -841,6 +842,11 @@
 .order {
   padding: 50px 15px;
   background: #F4F5F7;
+}
+@media screen and (min-width: 1399px) {
+  .order {
+    display: none;
+  }
 }
 @media screen and (min-width: 1400px) {
   .order {
