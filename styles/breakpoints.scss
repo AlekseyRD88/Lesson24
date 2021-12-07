@@ -11,7 +11,7 @@ $sm: 320px;
    }
 }
 @mixin for-small {
-   @media screen and (max-width: $sm - 1) {
+   @media screen and (min-width: $sm) {
       @content;
    }
 }
