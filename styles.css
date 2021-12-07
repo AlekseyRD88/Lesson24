@@ -860,11 +860,6 @@
     align-items: flex-start;
   }
 }
-@media screen and (min-width: 320px) {
-  .order {
-    display: none;
-  }
-}
 .order__details {
   max-width: 555px;
 }
